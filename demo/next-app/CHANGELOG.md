@@ -1,447 +1,891 @@
-# @replexica/demo/next-app
+# next-app
 
-## 0.1.61
+## 0.2.102
+
+### Patch Changes
+
+- Updated dependencies [[`77cf56e`](https://github.com/lingodotdev/lingo.dev/commit/77cf56e57725c680d071c6f5bc310e77c8ead463)]:
+  - lingo.dev@0.117.10
+
+## 0.2.101
+
+### Patch Changes
+
+- Updated dependencies [[`738bf08`](https://github.com/lingodotdev/lingo.dev/commit/738bf08edfe226392ec4534e05864101bc66c39c)]:
+  - lingo.dev@0.117.9
+
+## 0.2.100
+
+### Patch Changes
+
+- Updated dependencies [[`f6352b6`](https://github.com/lingodotdev/lingo.dev/commit/f6352b6222e425d5d184c1591a90b1d13a7effbc)]:
+  - lingo.dev@0.117.8
+
+## 0.2.99
+
+### Patch Changes
+
+- Updated dependencies [[`ad646a4`](https://github.com/lingodotdev/lingo.dev/commit/ad646a4f44dc2f0771eb3aa2783872b4d0e55f57)]:
+  - lingo.dev@0.117.7
+
+## 0.2.98
+
+### Patch Changes
+
+- Updated dependencies [[`a9e1af5`](https://github.com/lingodotdev/lingo.dev/commit/a9e1af5a57b9711ac1ef98b40b5f7abff4b0c31a)]:
+  - lingo.dev@0.117.6
+
+## 0.2.97
+
+### Patch Changes
+
+- Updated dependencies [[`a881f81`](https://github.com/lingodotdev/lingo.dev/commit/a881f8115059168dabb4cbe07a1d28ca33d36ece)]:
+  - lingo.dev@0.117.5
+
+## 0.2.96
+
+### Patch Changes
+
+- Updated dependencies [[`2881712`](https://github.com/lingodotdev/lingo.dev/commit/2881712a1964dfa36eedfe70a00ae438f400647b)]:
+  - lingo.dev@0.117.4
+
+## 0.2.95
+
+### Patch Changes
+
+- Updated dependencies [[`9f429c6`](https://github.com/lingodotdev/lingo.dev/commit/9f429c6c8a64f8f829ac7bc1fc293697c5d93b9f)]:
+  - lingo.dev@0.117.3
+
+## 0.2.94
+
+### Patch Changes
+
+- Updated dependencies [[`80bcbe4`](https://github.com/lingodotdev/lingo.dev/commit/80bcbe4a65e0728e5795bb5b4f2b6e3d7e3aa206)]:
+  - lingo.dev@0.117.2
+
+## 0.2.93
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @replexica/react@0.3.13
-  - replexica@0.58.2
+  - lingo.dev@0.117.1
 
-## 0.1.60
+## 0.2.92
+
+### Patch Changes
+
+- Updated dependencies [[`48fab66`](https://github.com/lingodotdev/lingo.dev/commit/48fab66b6806455d9faa1dcb169d4c61194e2144)]:
+  - lingo.dev@0.117.0
+
+## 0.2.91
+
+### Patch Changes
+
+- Updated dependencies [[`9c338a8`](https://github.com/lingodotdev/lingo.dev/commit/9c338a8c5fab77c386d74700a6055c73d06daafd)]:
+  - lingo.dev@0.116.5
+
+## 0.2.90
+
+### Patch Changes
+
+- Updated dependencies [[`3dd04bd`](https://github.com/lingodotdev/lingo.dev/commit/3dd04bd937828c16862b2b1459576931028bb01a)]:
+  - lingo.dev@0.116.4
+
+## 0.2.89
+
+### Patch Changes
+
+- Updated dependencies [[`dd09791`](https://github.com/lingodotdev/lingo.dev/commit/dd09791948351046e083b077805db9039ee2faf1)]:
+  - lingo.dev@0.116.3
+
+## 0.2.88
+
+### Patch Changes
+
+- Updated dependencies [[`b0ac42a`](https://github.com/lingodotdev/lingo.dev/commit/b0ac42a896b46d0670a5ad9817304b32125aef85)]:
+  - lingo.dev@0.116.2
+
+## 0.2.87
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - replexica@0.58.1
+  - lingo.dev@0.116.1
 
-## 0.1.59
-
-### Patch Changes
-
-- Updated dependencies [[`7ff7f8f`](https://github.com/replexica/replexica/commit/7ff7f8fca7318e4dba929194972d20ccf3487e9d), [`ff0d2d7`](https://github.com/replexica/replexica/commit/ff0d2d7fb12806a7264a72c03e48a8dda3526c23)]:
-  - replexica@0.58.0
-
-## 0.1.58
+## 0.2.86
 
 ### Patch Changes
 
-- Updated dependencies []:
-  - @replexica/react@0.3.12
-  - replexica@0.57.1
+- Updated dependencies [[`c0aa906`](https://github.com/lingodotdev/lingo.dev/commit/c0aa906880d26c5d01748e0d72b9f61ec989606d), [`5d808bd`](https://github.com/lingodotdev/lingo.dev/commit/5d808bd33eb3a0b5c685e3a3a6cb079ba86eb6e2)]:
+  - lingo.dev@0.116.0
 
-## 0.1.57
-
-### Patch Changes
-
-- Updated dependencies [[`2c5cbcf`](https://github.com/replexica/replexica/commit/2c5cbcfbf6feb28440255cdea0818c8cefa61d91), [`8e2cee4`](https://github.com/replexica/replexica/commit/8e2cee4b282c39fef1e00fa429e03e1c1e489cc5), [`ca10072`](https://github.com/replexica/replexica/commit/ca10072f636d8bd1105ed0f6cc84cf0af5a12402)]:
-  - replexica@0.57.0
-
-## 0.1.56
+## 0.2.85
 
 ### Patch Changes
 
-- Updated dependencies [[`b8ad864`](https://github.com/replexica/replexica/commit/b8ad8643347088635eeeb568f1818d71d5226269)]:
-  - replexica@0.56.3
+- Updated dependencies [[`6267878`](https://github.com/lingodotdev/lingo.dev/commit/6267878d1be28337d77749e39ab3547b6a19b3ed)]:
+  - lingo.dev@0.115.0
 
-## 0.1.55
+## 0.2.84
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - replexica@0.56.2
+  - lingo.dev@0.114.7
 
-## 0.1.54
-
-### Patch Changes
-
-- Updated dependencies []:
-  - replexica@0.56.1
-
-## 0.1.53
-
-### Patch Changes
-
-- Updated dependencies [[`c03437d`](https://github.com/replexica/replexica/commit/c03437dc9cfd8183e40f74926b4ba7f0874ebf81), [`42d0a5a`](https://github.com/replexica/replexica/commit/42d0a5a7a53e296192a31e8f1d67c126793ea280)]:
-  - replexica@0.56.0
-  - @replexica/react@0.3.11
-
-## 0.1.52
-
-### Patch Changes
-
-- Updated dependencies [[`57e395a`](https://github.com/replexica/replexica/commit/57e395aae8ab100ba470bc7d1104ddfa178249e7)]:
-  - replexica@0.55.0
-
-## 0.1.51
-
-### Patch Changes
-
-- Updated dependencies [[`44b4cca`](https://github.com/replexica/replexica/commit/44b4cca2718bd72d55a938bac458d32a4536508a), [`4fc27da`](https://github.com/replexica/replexica/commit/4fc27daae5810f6167726a28d76a874fd8421a5b)]:
-  - replexica@0.54.0
-
-## 0.1.50
-
-### Patch Changes
-
-- Updated dependencies [[`44b5c5c`](https://github.com/replexica/replexica/commit/44b5c5c498ca8df3bb814764f40057576c28c941)]:
-  - replexica@0.53.1
-
-## 0.1.49
-
-### Patch Changes
-
-- Updated dependencies [[`072e23e`](https://github.com/replexica/replexica/commit/072e23e58fca0da20bfd01f6a0ae600e6fb760a8)]:
-  - replexica@0.53.0
-
-## 0.1.48
+## 0.2.83
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - replexica@0.51.2
+  - lingo.dev@0.114.6
 
-## 0.1.47
-
-### Patch Changes
-
-- Updated dependencies [[`e511b50`](https://github.com/replexica/replexica/commit/e511b5080dba58728e8650c7bf34d810cccdcf4e)]:
-  - replexica@0.51.1
-
-## 0.1.46
+## 0.2.82
 
 ### Patch Changes
 
-- Updated dependencies [[`091ee35`](https://github.com/replexica/replexica/commit/091ee353081795bf8f61c7d41483bc309c7b62ef)]:
-  - replexica@0.51.0
-  - @replexica/react@0.3.10
+- Updated dependencies [[`0a0d0c9`](https://github.com/lingodotdev/lingo.dev/commit/0a0d0c9ea3c7111ed0b54cdafba1bae76eeb8663)]:
+  - lingo.dev@0.114.5
 
-## 0.1.45
-
-### Patch Changes
-
-- Updated dependencies [[`5e282d7`](https://github.com/replexica/replexica/commit/5e282d7ffa5ca9494aa7046a090bb7c327085a86)]:
-  - replexica@0.50.0
-  - @replexica/react@0.3.9
-
-## 0.1.44
+## 0.2.81
 
 ### Patch Changes
 
-- Updated dependencies [[`64cd6f3`](https://github.com/replexica/replexica/commit/64cd6f3765bb4524e9f78f93ff283e833a6f26a2)]:
-  - replexica@0.49.1
+- Updated dependencies [[`68fb3ea`](https://github.com/lingodotdev/lingo.dev/commit/68fb3ea64fc0191ecee66403432e0c8efabab2b9)]:
+  - lingo.dev@0.114.4
 
-## 0.1.43
-
-### Patch Changes
-
-- Updated dependencies [[`0071cd6`](https://github.com/replexica/replexica/commit/0071cd66b1c868ad3898fc368390a628c5a67767), [`1cc0796`](https://github.com/replexica/replexica/commit/1cc07961d221e397ad5dd2917bed76cb4f2b1f04)]:
-  - replexica@0.49.0
-  - @replexica/react@0.3.8
-
-## 0.1.42
+## 0.2.80
 
 ### Patch Changes
 
-- Updated dependencies [[`cdef5b7`](https://github.com/replexica/replexica/commit/cdef5b7bfbee4670c6de62cf4b4f3e0315748e25), [`62c464d`](https://github.com/replexica/replexica/commit/62c464d5602909f8f6370dfa5009131a4d6719d0)]:
-  - replexica@0.48.0
+- Updated dependencies [[`e70385b`](https://github.com/lingodotdev/lingo.dev/commit/e70385bd1ac676bf5bd31b212d8510e6b7ebf793)]:
+  - lingo.dev@0.114.3
 
-## 0.1.41
-
-### Patch Changes
-
-- Updated dependencies [[`2859938`](https://github.com/replexica/replexica/commit/28599388a91bf80cea3813bb4b8999bb4df302c9)]:
-  - replexica@0.47.1
-  - @replexica/react@0.3.7
-
-## 0.1.40
+## 0.2.79
 
 ### Patch Changes
 
-- Updated dependencies [[`2b5e3ae`](https://github.com/replexica/replexica/commit/2b5e3aea3f0745955266f6edf2ce34830242e503), [`4dfc8d8`](https://github.com/replexica/replexica/commit/4dfc8d8b301a690875401af5d107a88f1716182a), [`ca9e20e`](https://github.com/replexica/replexica/commit/ca9e20eef9047e20d39ccf9dff74d2f6069d4676), [`2aedf3b`](https://github.com/replexica/replexica/commit/2aedf3bec2d9dffc7b43fc10dea0cab5742d44af), [`747847a`](https://github.com/replexica/replexica/commit/747847a86720d4c36f15daeb41d13d0aff129ca9), [`3fc9da7`](https://github.com/replexica/replexica/commit/3fc9da7e3d2ec58e7f278c79a53eae6d3dfa5896), [`626082a`](https://github.com/replexica/replexica/commit/626082a64b88fb3b589acd950afeafe417ce5ddc)]:
-  - replexica@0.47.0
-  - @replexica/react@0.3.6
+- Updated dependencies [[`f7215c1`](https://github.com/lingodotdev/lingo.dev/commit/f7215c1e435378aac8fc953765335cd478cbf507)]:
+  - lingo.dev@0.114.2
 
-## 0.1.39
-
-### Patch Changes
-
-- Updated dependencies [[`8887ece`](https://github.com/replexica/replexica/commit/8887ece066eccb8da31d42b30a76b005de2219a8)]:
-  - replexica@0.46.0
-
-## 0.1.38
+## 0.2.78
 
 ### Patch Changes
 
-- Updated dependencies [[`ad78fb2`](https://github.com/replexica/replexica/commit/ad78fb231d4044d09280127ad8d7c7f7141afe1b)]:
-  - replexica@0.45.0
+- Updated dependencies [[`898bd36`](https://github.com/lingodotdev/lingo.dev/commit/898bd36cc2e444641560d2ad2b28065a57072183)]:
+  - lingo.dev@0.114.1
 
-## 0.1.37
-
-### Patch Changes
-
-- Updated dependencies [[`1e4cbd9`](https://github.com/replexica/replexica/commit/1e4cbd9670ea330c6938efdda3a965ac1e3e8376)]:
-  - replexica@0.44.3
-
-## 0.1.36
+## 0.2.77
 
 ### Patch Changes
 
-- Updated dependencies [[`2d019f1`](https://github.com/replexica/replexica/commit/2d019f153bd8cc928c2065c9e0260e9de0a6885c), [`38fab73`](https://github.com/replexica/replexica/commit/38fab73377278124dfc85a847326fdc957261c6e)]:
-  - replexica@0.44.2
+- Updated dependencies [[`060680c`](https://github.com/lingodotdev/lingo.dev/commit/060680cd13c05dd77dd9d5447c064d948bd21cb0), [`f102356`](https://github.com/lingodotdev/lingo.dev/commit/f102356e1ea12c800399ac11f074c42708c304b1), [`a956e53`](https://github.com/lingodotdev/lingo.dev/commit/a956e537d0d45565c3243dd0c5ba4eec8bed69c6), [`3fd38c2`](https://github.com/lingodotdev/lingo.dev/commit/3fd38c2d38e4b22dcd824c865fe31abbc56bc862)]:
+  - lingo.dev@0.114.0
 
-## 0.1.35
-
-### Patch Changes
-
-- Updated dependencies [[`4760f61`](https://github.com/replexica/replexica/commit/4760f617ef5cca7bed742e4fac28044721d33fc1)]:
-  - replexica@0.44.1
-
-## 0.1.34
+## 0.2.76
 
 ### Patch Changes
 
-- Updated dependencies [[`1b11f8e`](https://github.com/replexica/replexica/commit/1b11f8e710d140045be0c4385bad6348f21f4e5c)]:
-  - replexica@0.44.0
+- Updated dependencies [[`03671f7`](https://github.com/lingodotdev/lingo.dev/commit/03671f7cb252d6bee3debce2f4a4eb989dc0050b)]:
+  - lingo.dev@0.113.8
 
-## 0.1.33
-
-### Patch Changes
-
-- Updated dependencies [[`fe09f8b`](https://github.com/replexica/replexica/commit/fe09f8b68b1583ba9be83722beceb1596970809f)]:
-  - replexica@0.43.0
-
-## 0.1.32
+## 0.2.75
 
 ### Patch Changes
 
-- Updated dependencies [[`7c67fc5`](https://github.com/replexica/replexica/commit/7c67fc5d87d66abbf0a174417b938810a112cc1a)]:
-  - replexica@0.42.0
+- Updated dependencies [[`4f5ffe6`](https://github.com/lingodotdev/lingo.dev/commit/4f5ffe62189949bb26a6c7825cb72c217aefa32f)]:
+  - lingo.dev@0.113.7
 
-## 0.1.31
-
-### Patch Changes
-
-- Updated dependencies [[`99a4d0a`](https://github.com/replexica/replexica/commit/99a4d0a926d6b6ec0821b47e34f337ca5bb05fca)]:
-  - replexica@0.41.3
-
-## 0.1.30
+## 0.2.74
 
 ### Patch Changes
 
-- Updated dependencies [[`962ec5e`](https://github.com/replexica/replexica/commit/962ec5e619632d020ff60fb562d3ad7bc8900443)]:
-  - replexica@0.41.2
+- Updated dependencies [[`be8de32`](https://github.com/lingodotdev/lingo.dev/commit/be8de3280bb5dc5f409fc7680c0e5ff6a53e2fe5)]:
+  - lingo.dev@0.113.6
 
-## 0.1.29
-
-### Patch Changes
-
-- Updated dependencies [[`6fdc5d5`](https://github.com/replexica/replexica/commit/6fdc5d535a077bb0656d37c5edf3423dd32e6412)]:
-  - replexica@0.41.1
-
-## 0.1.28
+## 0.2.73
 
 ### Patch Changes
 
-- Updated dependencies [[`1601f70`](https://github.com/replexica/replexica/commit/1601f708bdf0ff1786d3bf9b19265ac5b567f740)]:
-  - replexica@0.41.0
-  - @replexica/react@0.3.5
+- Updated dependencies [[`79c4c00`](https://github.com/lingodotdev/lingo.dev/commit/79c4c00108b9c102cf53e1c090b286070a43e3d5)]:
+  - lingo.dev@0.113.5
 
-## 0.1.27
-
-### Patch Changes
-
-- Updated dependencies [[`bc5a28c`](https://github.com/replexica/replexica/commit/bc5a28c3c98b619872924b5f913229ac01387524)]:
-  - replexica@0.40.1
-  - @replexica/react@0.3.4
-
-## 0.1.26
+## 0.2.72
 
 ### Patch Changes
 
-- Updated dependencies [[`5c2ca37`](https://github.com/replexica/replexica/commit/5c2ca37114663eaeb529a027e33949ef3839549b), [`78c4ce4`](https://github.com/replexica/replexica/commit/78c4ce479149d3eeb2f67f9283de54eecf3c35ab)]:
-  - replexica@0.40.0
-  - @replexica/react@0.3.3
+- Updated dependencies [[`b45347c`](https://github.com/lingodotdev/lingo.dev/commit/b45347c38572ee371b2bc494261b7e3e90c4aed1)]:
+  - lingo.dev@0.113.4
 
-## 0.1.25
-
-### Patch Changes
-
-- Updated dependencies [[`c990101`](https://github.com/replexica/replexica/commit/c990101185aa17b036fa5a21db679fc7781bf551)]:
-  - replexica@0.39.1
-
-## 0.1.24
+## 0.2.71
 
 ### Patch Changes
 
-- Updated dependencies [[`6870fc7`](https://github.com/replexica/replexica/commit/6870fc758dae9d1adb641576befbd8cda61cd5ea)]:
-  - replexica@0.39.0
-  - @replexica/react@0.3.2
+- Updated dependencies [[`74d8efe`](https://github.com/lingodotdev/lingo.dev/commit/74d8efef8d4789f9baa5b7837e053c2571df0308)]:
+  - lingo.dev@0.113.3
+
+## 0.2.70
+
+### Patch Changes
+
+- Updated dependencies [[`3d3c3d7`](https://github.com/lingodotdev/lingo.dev/commit/3d3c3d783a61443da50a5d182391db33a0d29c84)]:
+  - lingo.dev@0.113.2
+
+## 0.2.69
+
+### Patch Changes
+
+- Updated dependencies [[`38139c8`](https://github.com/lingodotdev/lingo.dev/commit/38139c81a85001739cece60873c0c6ad711327a4)]:
+  - lingo.dev@0.113.1
+
+## 0.2.68
+
+### Patch Changes
+
+- Updated dependencies [[`3413dad`](https://github.com/lingodotdev/lingo.dev/commit/3413dad22af688a6d26649c4f25e18304b3caee6)]:
+  - lingo.dev@0.113.0
+
+## 0.2.67
+
+### Patch Changes
+
+- Updated dependencies [[`26d2ec1`](https://github.com/lingodotdev/lingo.dev/commit/26d2ec155c5868a5bdce1027cd76a5a2d4f8f2b1)]:
+  - lingo.dev@0.112.1
+
+## 0.2.66
+
+### Patch Changes
+
+- Updated dependencies [[`82f5e7c`](https://github.com/lingodotdev/lingo.dev/commit/82f5e7cdde9a2a15b4c2a7fcb8c67ed64eab596b), [`e858174`](https://github.com/lingodotdev/lingo.dev/commit/e858174fd5165e0ea3e3f25fa1fc3edb292bc58f)]:
+  - lingo.dev@0.112.0
+
+## 0.2.65
+
+### Patch Changes
+
+- Updated dependencies [[`f3d4987`](https://github.com/lingodotdev/lingo.dev/commit/f3d4987ddc393c28d488f030c087f3e99a667975), [`a933b81`](https://github.com/lingodotdev/lingo.dev/commit/a933b8102763e0481f088c847da53e0eee3f0617)]:
+  - lingo.dev@0.111.16
+
+## 0.2.64
+
+### Patch Changes
+
+- Updated dependencies []:
+  - lingo.dev@0.111.15
+
+## 0.2.63
+
+### Patch Changes
+
+- Updated dependencies [[`dd0663f`](https://github.com/lingodotdev/lingo.dev/commit/dd0663fdcdd0ff4fd5748386758a8c20f9e52a4b)]:
+  - lingo.dev@0.111.14
+
+## 0.2.62
+
+### Patch Changes
+
+- Updated dependencies [[`762396b`](https://github.com/lingodotdev/lingo.dev/commit/762396bb37110dbe3e4e000edb27892b318aa3ef)]:
+  - lingo.dev@0.111.13
+
+## 0.2.61
+
+### Patch Changes
+
+- Updated dependencies [[`468a59b`](https://github.com/lingodotdev/lingo.dev/commit/468a59b89736c72253b1f32abbf30a950e5434ec)]:
+  - lingo.dev@0.111.12
+
+## 0.2.60
+
+### Patch Changes
+
+- Updated dependencies [[`bbc71b9`](https://github.com/lingodotdev/lingo.dev/commit/bbc71b9948ccc289c9669d8b0c276c9596f6a5e7)]:
+  - lingo.dev@0.111.11
+
+## 0.2.59
+
+### Patch Changes
+
+- Updated dependencies [[`0e6d605`](https://github.com/lingodotdev/lingo.dev/commit/0e6d605a9ad6835bef26c40895760c652a69b7a2)]:
+  - lingo.dev@0.111.10
+
+## 0.2.58
+
+### Patch Changes
+
+- Updated dependencies [[`03138da`](https://github.com/lingodotdev/lingo.dev/commit/03138dac37e869e2e99702ffd3c76532f1c58aa6), [`9557fe5`](https://github.com/lingodotdev/lingo.dev/commit/9557fe572d3e4a1a4d8c1e35417fe3b7531c3d52)]:
+  - lingo.dev@0.111.9
+
+## 0.2.57
+
+### Patch Changes
+
+- Updated dependencies [[`64225d0`](https://github.com/lingodotdev/lingo.dev/commit/64225d073999d599ba86f65fee8e08e3e5f2800b)]:
+  - lingo.dev@0.111.8
+
+## 0.2.56
+
+### Patch Changes
+
+- Updated dependencies []:
+  - lingo.dev@0.111.7
+
+## 0.2.55
+
+### Patch Changes
+
+- Updated dependencies [[`88b7e31`](https://github.com/lingodotdev/lingo.dev/commit/88b7e3132c77d0a1e823de4ee6ef5a96a3098b97)]:
+  - lingo.dev@0.111.6
+
+## 0.2.54
+
+### Patch Changes
+
+- Updated dependencies [[`d9294c0`](https://github.com/lingodotdev/lingo.dev/commit/d9294c0bbb993454ad3654f77dd48d82211e0465)]:
+  - lingo.dev@0.111.5
+
+## 0.2.53
+
+### Patch Changes
+
+- Updated dependencies [[`100b141`](https://github.com/lingodotdev/lingo.dev/commit/100b141d2143e33b603830475ba55089dc421e3d)]:
+  - lingo.dev@0.111.4
+
+## 0.2.52
+
+### Patch Changes
+
+- Updated dependencies [[`8741a20`](https://github.com/lingodotdev/lingo.dev/commit/8741a20dcaa3983131a1919f875dd2c264cb29fb)]:
+  - lingo.dev@0.111.3
+
+## 0.2.51
+
+### Patch Changes
+
+- Updated dependencies [[`bd3f69d`](https://github.com/lingodotdev/lingo.dev/commit/bd3f69dde76814146f775bc87241fa2fad012ab0)]:
+  - lingo.dev@0.111.2
+
+## 0.2.50
+
+### Patch Changes
+
+- Updated dependencies [[`6c174c3`](https://github.com/lingodotdev/lingo.dev/commit/6c174c38f3cf28c2af24ead18503658c3c641026)]:
+  - lingo.dev@0.111.1
+
+## 0.2.49
+
+### Patch Changes
+
+- Updated dependencies [[`3a642f3`](https://github.com/lingodotdev/lingo.dev/commit/3a642f33c04378706a8382aa0fde36e747fd6af5)]:
+  - lingo.dev@0.111.0
+
+## 0.2.48
+
+### Patch Changes
+
+- Updated dependencies [[`bc7b08e`](https://github.com/lingodotdev/lingo.dev/commit/bc7b08ef1245d1af0c68813cb18193d4f14bc7e0)]:
+  - lingo.dev@0.110.5
+
+## 0.2.47
+
+### Patch Changes
+
+- Updated dependencies [[`b6071e4`](https://github.com/lingodotdev/lingo.dev/commit/b6071e4f19dd1823f4f2ce54ba5495538a94d4fd)]:
+  - lingo.dev@0.110.4
+
+## 0.2.46
+
+### Patch Changes
+
+- Updated dependencies [[`e898c1e`](https://github.com/lingodotdev/lingo.dev/commit/e898c1eeb34e4dd3e74df26465802b520018acf9)]:
+  - lingo.dev@0.110.3
+
+## 0.2.45
+
+### Patch Changes
+
+- Updated dependencies [[`410825c`](https://github.com/lingodotdev/lingo.dev/commit/410825c8bf0029d8ee458514d6f203a7397c8f22)]:
+  - lingo.dev@0.110.2
+
+## 0.2.44
+
+### Patch Changes
+
+- Updated dependencies [[`555384d`](https://github.com/lingodotdev/lingo.dev/commit/555384dacf79167e1bb8b9e6871e153fea763471)]:
+  - lingo.dev@0.110.1
+
+## 0.2.43
+
+### Patch Changes
+
+- Updated dependencies [[`c0486ca`](https://github.com/lingodotdev/lingo.dev/commit/c0486ca9b0451ea75d070e199f502507ba418e5e)]:
+  - lingo.dev@0.110.0
+
+## 0.2.42
+
+### Patch Changes
+
+- Updated dependencies [[`99aae2d`](https://github.com/lingodotdev/lingo.dev/commit/99aae2d09a26060c810913f740893a4a5874d9d4)]:
+  - lingo.dev@0.109.2
+
+## 0.2.41
+
+### Patch Changes
+
+- Updated dependencies []:
+  - lingo.dev@0.109.1
+
+## 0.2.40
+
+### Patch Changes
+
+- Updated dependencies [[`6af91a0`](https://github.com/lingodotdev/lingo.dev/commit/6af91a083d16f85051fb49a4034789abe784017e)]:
+  - lingo.dev@0.109.0
+
+## 0.2.39
+
+### Patch Changes
+
+- Updated dependencies [[`1ff847b`](https://github.com/lingodotdev/lingo.dev/commit/1ff847b9273a3082178553e70c22524f5831ad36), [`55e9e68`](https://github.com/lingodotdev/lingo.dev/commit/55e9e687a3d0efa84b808818a848a276b1a42015), [`b9e2551`](https://github.com/lingodotdev/lingo.dev/commit/b9e2551f349e33542212f941b3407e8517b5fb27)]:
+  - lingo.dev@0.108.0
+
+## 0.2.38
+
+### Patch Changes
+
+- Updated dependencies []:
+  - lingo.dev@0.107.6
+
+## 0.2.37
+
+### Patch Changes
+
+- Updated dependencies []:
+  - lingo.dev@0.107.5
+
+## 0.2.36
+
+### Patch Changes
+
+- Updated dependencies [[`20a3737`](https://github.com/lingodotdev/lingo.dev/commit/20a3737ddb50b2a97699e57e03ea353b8912b78f)]:
+  - lingo.dev@0.107.4
+
+## 0.2.35
+
+### Patch Changes
+
+- Updated dependencies [[`afbb978`](https://github.com/lingodotdev/lingo.dev/commit/afbb978fec83d574f2c43b7d68457e435fca9b57)]:
+  - lingo.dev@0.107.3
+
+## 0.2.34
+
+### Patch Changes
+
+- Updated dependencies [[`1f1e33f`](https://github.com/lingodotdev/lingo.dev/commit/1f1e33fe4d0767c2f026214a505a2aa9f3785996), [`9266fd0`](https://github.com/lingodotdev/lingo.dev/commit/9266fd0bcddf4b07ca51d2609af92a9473106f9d)]:
+  - lingo.dev@0.107.2
+
+## 0.2.33
+
+### Patch Changes
+
+- Updated dependencies [[`6baa1a7`](https://github.com/lingodotdev/lingo.dev/commit/6baa1a7e88dbfac3783d1d49695595077fd8d209)]:
+  - lingo.dev@0.107.1
+
+## 0.2.32
+
+### Patch Changes
+
+- Updated dependencies [[`925997d`](https://github.com/lingodotdev/lingo.dev/commit/925997d75a1edbb4211a3be8db2b186cb139327e)]:
+  - lingo.dev@0.107.0
+
+## 0.2.31
+
+### Patch Changes
+
+- Updated dependencies [[`cb2aa0f`](https://github.com/lingodotdev/lingo.dev/commit/cb2aa0f505d6b7dbc435b526e8a6f62265d1f453)]:
+  - lingo.dev@0.106.0
+
+## 0.2.30
+
+### Patch Changes
+
+- Updated dependencies [[`bfcb424`](https://github.com/lingodotdev/lingo.dev/commit/bfcb424eb4479d0d3b767e062d30f02c5bcaeb14)]:
+  - lingo.dev@0.105.4
+
+## 0.2.29
+
+### Patch Changes
+
+- Updated dependencies [[`2b297ba`](https://github.com/lingodotdev/lingo.dev/commit/2b297babe76f9799c5154d9421fecd1ebbe1bb72)]:
+  - lingo.dev@0.105.3
+
+## 0.2.28
+
+### Patch Changes
+
+- Updated dependencies [[`30faa6d`](https://github.com/lingodotdev/lingo.dev/commit/30faa6d10e851a38ced86ae403b3a1fd48440bca)]:
+  - lingo.dev@0.105.2
+
+## 0.2.27
+
+### Patch Changes
+
+- Updated dependencies []:
+  - lingo.dev@0.105.1
+
+## 0.2.26
+
+### Patch Changes
+
+- Updated dependencies [[`4e9e368`](https://github.com/lingodotdev/lingo.dev/commit/4e9e36830ee4277ef9d65eee9ee92380a95a622c)]:
+  - lingo.dev@0.105.0
+
+## 0.2.25
+
+### Patch Changes
+
+- Updated dependencies [[`65701e5`](https://github.com/lingodotdev/lingo.dev/commit/65701e5b9694e811587ef600227251a1ff1384a0), [`4e55355`](https://github.com/lingodotdev/lingo.dev/commit/4e5535535029743b7a0edc4fdab3d4ee71374035)]:
+  - lingo.dev@0.104.0
+
+## 0.2.24
+
+### Patch Changes
+
+- Updated dependencies [[`f644123`](https://github.com/lingodotdev/lingo.dev/commit/f644123ddf6a6254790d08af50141e4dd78c3677)]:
+  - lingo.dev@0.103.0
+
+## 0.2.23
+
+### Patch Changes
+
+- Updated dependencies [[`29cf6a7`](https://github.com/lingodotdev/lingo.dev/commit/29cf6a7359707e0e341c11942d1ce6dedf7e66e5)]:
+  - lingo.dev@0.102.4
+
+## 0.2.22
+
+### Patch Changes
+
+- Updated dependencies [[`b249484`](https://github.com/lingodotdev/lingo.dev/commit/b249484d6f0060e29cd5b50b3d8ce68b857ccad5)]:
+  - lingo.dev@0.102.3
+
+## 0.2.21
+
+### Patch Changes
+
+- Updated dependencies [[`f7debef`](https://github.com/lingodotdev/lingo.dev/commit/f7debef9f004e670bb1f6a45ae17067a72a6e53f)]:
+  - lingo.dev@0.102.2
+
+## 0.2.20
+
+### Patch Changes
+
+- Updated dependencies [[`da6f0c8`](https://github.com/lingodotdev/lingo.dev/commit/da6f0c85e69687615df943323d261078742ba3f2)]:
+  - lingo.dev@0.102.1
+
+## 0.2.19
+
+### Patch Changes
+
+- Updated dependencies [[`8b306bc`](https://github.com/lingodotdev/lingo.dev/commit/8b306bcd0a3231ffd8bde283414b6d069b7a5b99), [`013fca0`](https://github.com/lingodotdev/lingo.dev/commit/013fca0f4252103ee3009fe3cdcfce2a87c80058)]:
+  - lingo.dev@0.102.0
+
+## 0.2.18
+
+### Patch Changes
+
+- Updated dependencies [[`84fd214`](https://github.com/lingodotdev/lingo.dev/commit/84fd214a21766e7683c5d645fcb8c4c0162eb0b6), [`0fc6385`](https://github.com/lingodotdev/lingo.dev/commit/0fc63856c6f49ac68a220b6e2f1c4f060e7ce78e), [`cac5429`](https://github.com/lingodotdev/lingo.dev/commit/cac54296d512d436dc3861441d5d1a3f1076792b)]:
+  - lingo.dev@0.101.0
+
+## 0.2.17
+
+### Patch Changes
+
+- Updated dependencies [[`ce0e5cd`](https://github.com/lingodotdev/lingo.dev/commit/ce0e5cd6d1ec17f5c593d394ceb63a28666df924)]:
+  - lingo.dev@0.100.1
+
+## 0.2.16
+
+### Patch Changes
+
+- Updated dependencies [[`ce8c75c`](https://github.com/lingodotdev/lingo.dev/commit/ce8c75c7fc1a2124d3e18444bc356c4dfce26434)]:
+  - lingo.dev@0.100.0
+
+## 0.2.15
+
+### Patch Changes
+
+- Updated dependencies []:
+  - lingo.dev@0.99.8
+
+## 0.2.14
+
+### Patch Changes
+
+- Updated dependencies [[`d80285a`](https://github.com/lingodotdev/lingo.dev/commit/d80285a9b12bd85425564cb00e558812fd0aee40)]:
+  - lingo.dev@0.99.7
+
+## 0.2.13
+
+### Patch Changes
+
+- Updated dependencies [[`81eff21`](https://github.com/lingodotdev/lingo.dev/commit/81eff2104a4401b1c1b6cdf4dcc7ca75b7411ba4)]:
+  - lingo.dev@0.99.6
+
+## 0.2.12
+
+### Patch Changes
+
+- Updated dependencies [[`b39b04a`](https://github.com/lingodotdev/lingo.dev/commit/b39b04ad83d3c8001008c3cefe309d8e762b2adc), [`4e5983d`](https://github.com/lingodotdev/lingo.dev/commit/4e5983d7e59ebf9eb529c4b7c1c87689432ac873)]:
+  - lingo.dev@0.99.5
+
+## 0.2.11
+
+### Patch Changes
+
+- Updated dependencies [[`1a3cbc1`](https://github.com/lingodotdev/lingo.dev/commit/1a3cbc1751c64e5617e91812506b3c061475f16a)]:
+  - lingo.dev@0.99.4
+
+## 0.2.10
+
+### Patch Changes
+
+- Updated dependencies []:
+  - lingo.dev@0.99.3
+
+## 0.2.9
+
+### Patch Changes
+
+- Updated dependencies []:
+  - lingo.dev@0.99.2
+
+## 0.2.8
+
+### Patch Changes
+
+- [`8e97256`](https://github.com/lingodotdev/lingo.dev/commit/8e97256ca4e78dd09a967539ca9dec359bd558ef) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - fix dictionary merging
+
+- Updated dependencies []:
+  - lingo.dev@0.99.1
+
+## 0.2.7
+
+### Patch Changes
+
+- [#925](https://github.com/lingodotdev/lingo.dev/pull/925) [`215af19`](https://github.com/lingodotdev/lingo.dev/commit/215af1944667cce66e9c5966f4fb627186687b74) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - improved compiler concurrency, caching, added lingo.dev engine to the compiler, and updated demo apps
+
+- Updated dependencies [[`1b9b113`](https://github.com/lingodotdev/lingo.dev/commit/1b9b11301978e8caa2555832d027ff93216aa6e1), [`0329a9c`](https://github.com/lingodotdev/lingo.dev/commit/0329a9cdb5e5a63fcecab4efcd7cce22f155a0e9)]:
+  - lingo.dev@0.99.0
+
+## 0.2.6
+
+### Patch Changes
+
+- Updated dependencies [[`3b6574f`](https://github.com/lingodotdev/lingo.dev/commit/3b6574f0499f3f4d3c48f66ba2b828d2c1c0ceb0), [`6b4b9e6`](https://github.com/lingodotdev/lingo.dev/commit/6b4b9e6cc9a0cb5da8a4df9e9ebda474bf2a18ed), [`6b4b9e6`](https://github.com/lingodotdev/lingo.dev/commit/6b4b9e6cc9a0cb5da8a4df9e9ebda474bf2a18ed)]:
+  - lingo.dev@0.98.0
+
+## 0.2.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - lingo.dev@0.97.5
+
+## 0.2.4
+
+### Patch Changes
+
+- Updated dependencies [[`2dd8170`](https://github.com/lingodotdev/lingo.dev/commit/2dd8170ff0101268f2253c9248409d184da5f75c)]:
+  - lingo.dev@0.97.4
+
+## 0.2.3
+
+### Patch Changes
+
+- Updated dependencies []:
+  - lingo.dev@0.97.3
+
+## 0.2.2
+
+### Patch Changes
+
+- Updated dependencies [[`cc232eb`](https://github.com/lingodotdev/lingo.dev/commit/cc232eb72d0e54b3571bbb70e88cdad24ba6372a)]:
+  - lingo.dev@0.97.2
+
+## 0.2.1
+
+### Patch Changes
+
+- Updated dependencies [[`fead8e0`](https://github.com/lingodotdev/lingo.dev/commit/fead8e08dc2b2869a093cb25a04f6e0aa78cf6b7)]:
+  - lingo.dev@0.97.1
+
+## 0.2.0
+
+### Minor Changes
+
+- [#897](https://github.com/lingodotdev/lingo.dev/pull/897) [`a5da697`](https://github.com/lingodotdev/lingo.dev/commit/a5da697f7efd46de31d17b202d06eb5f655ed9b9) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - Add support for other providers in the compiler and implement Google AI as a provider.
+
+### Patch Changes
+
+- Updated dependencies [[`a5da697`](https://github.com/lingodotdev/lingo.dev/commit/a5da697f7efd46de31d17b202d06eb5f655ed9b9), [`10a0139`](https://github.com/lingodotdev/lingo.dev/commit/10a0139edc9ffbc1c52ac2226f6b0f345cc19878)]:
+  - lingo.dev@0.97.0
 
 ## 0.1.23
 
 ### Patch Changes
 
-- Updated dependencies [[`d6e6d5c`](https://github.com/replexica/replexica/commit/d6e6d5c24b266de3769e95545f74632e7d75c697)]:
-  - replexica@0.38.0
-  - @replexica/react@0.3.1
+- Updated dependencies [[`3bd4045`](https://github.com/lingodotdev/lingo.dev/commit/3bd40450cbb5c8aabce61d7f1f3ab9c7293323d9)]:
+  - lingo.dev@0.96.0
 
 ## 0.1.22
 
 ### Patch Changes
 
-- Updated dependencies [[`73c9250`](https://github.com/replexica/replexica/commit/73c925084989ccea120cae1617ec87776c88e83e)]:
-  - @replexica/react@0.3.0
-  - replexica@0.37.0
+- Updated dependencies [[`f140f82`](https://github.com/lingodotdev/lingo.dev/commit/f140f820d00b15f99214a7eece1a9c7f0d098e90)]:
+  - lingo.dev@0.95.0
 
 ## 0.1.21
 
 ### Patch Changes
 
-- Updated dependencies [[`f59380f`](https://github.com/replexica/replexica/commit/f59380f85c98fae4dfb938f842bdf39fe795ddcd)]:
-  - replexica@0.36.2
+- Updated dependencies [[`145fb74`](https://github.com/lingodotdev/lingo.dev/commit/145fb74c09b42c8810f351be5a641b1366881ae1), [`0c45acc`](https://github.com/lingodotdev/lingo.dev/commit/0c45accfc45e63f597758c47033bc58d2f6059b5)]:
+  - lingo.dev@0.94.6
 
 ## 0.1.20
 
 ### Patch Changes
 
-- Updated dependencies [[`5ad1879`](https://github.com/replexica/replexica/commit/5ad18797f22bc06fe38769120c27bd7c4642fe2d)]:
-  - replexica@0.36.1
+- Updated dependencies [[`511a2ec`](https://github.com/lingodotdev/lingo.dev/commit/511a2ecd68a9c5e2800035d5c6a6b5b31b2dc80f)]:
+  - lingo.dev@0.94.5
 
 ## 0.1.19
 
 ### Patch Changes
 
-- Updated dependencies [[`fca3bd9`](https://github.com/replexica/replexica/commit/fca3bd984e5bef20a4a9921d7562980a3401f131)]:
-  - replexica@0.36.0
+- Updated dependencies [[`7191444`](https://github.com/lingodotdev/lingo.dev/commit/7191444f67864ea5b5a91a9be759b2445bf186d3)]:
+  - lingo.dev@0.94.4
 
 ## 0.1.18
 
 ### Patch Changes
 
-- Updated dependencies [[`d293f05`](https://github.com/replexica/replexica/commit/d293f059e1bd9131d6d41ceffc713efa8d6fa598)]:
-  - replexica@0.35.0
+- Updated dependencies []:
+  - lingo.dev@0.94.3
 
 ## 0.1.17
 
 ### Patch Changes
 
-- Updated dependencies [[`d9b0e51`](https://github.com/replexica/replexica/commit/d9b0e512196329cc781a4d33346f8ca0f3a81e7e)]:
-  - replexica@0.34.0
+- Updated dependencies [[`af011b1`](https://github.com/lingodotdev/lingo.dev/commit/af011b18fe96f15287609278f4d4d2b343b6c2cc)]:
+  - lingo.dev@0.94.2
 
 ## 0.1.16
 
 ### Patch Changes
 
-- Updated dependencies [[`8948266`](https://github.com/replexica/replexica/commit/8948266b0f026da9f656c916bedcedc72e5aedba)]:
-  - replexica@0.33.0
+- Updated dependencies []:
+  - lingo.dev@0.94.1
 
 ## 0.1.15
 
 ### Patch Changes
 
-- Updated dependencies [[`dab6f68`](https://github.com/replexica/replexica/commit/dab6f68b4e564f4f1a757431b5a590f87e30aeca)]:
-  - replexica@0.32.0
+- Updated dependencies [[`3750c9c`](https://github.com/lingodotdev/lingo.dev/commit/3750c9ca25a78280b04e4a2b2e6641dd21f9f3b0)]:
+  - lingo.dev@0.94.0
 
 ## 0.1.14
 
 ### Patch Changes
 
-- Updated dependencies [[`387b6b7`](https://github.com/replexica/replexica/commit/387b6b74c1718503f50f18991b0337ee87cb53f8)]:
-  - replexica@0.31.1
+- Updated dependencies []:
+  - lingo.dev@0.93.13
 
 ## 0.1.13
 
 ### Patch Changes
 
-- Updated dependencies [[`8c8e7dd`](https://github.com/replexica/replexica/commit/8c8e7dd4d35669d484240d643427612ecdaf73eb)]:
-  - replexica@0.31.0
-  - @replexica/react@0.2.5
+- Updated dependencies []:
+  - lingo.dev@0.93.12
 
 ## 0.1.12
 
 ### Patch Changes
 
-- Updated dependencies [[`bd2029d`](https://github.com/replexica/replexica/commit/bd2029d5c1241f7355ea08621dbeb7e04b7f5b5c)]:
-  - replexica@0.30.0
+- Updated dependencies []:
+  - lingo.dev@0.93.11
 
 ## 0.1.11
 
 ### Patch Changes
 
-- Updated dependencies [[`7d83cfc`](https://github.com/replexica/replexica/commit/7d83cfc79921346a47ccef43accee454ba80c83c)]:
-  - replexica@0.29.0
+- Updated dependencies []:
+  - lingo.dev@0.93.10
 
 ## 0.1.10
 
 ### Patch Changes
 
-- Updated dependencies [[`37167d6`](https://github.com/replexica/replexica/commit/37167d6d29d747b0dd35e26e5b6f0978f0e156d9)]:
-  - replexica@0.24.0
+- Updated dependencies []:
+  - lingo.dev@0.93.9
 
 ## 0.1.9
 
 ### Patch Changes
 
-- Updated dependencies []:
-  - @replexica/react@0.2.4
-  - replexica@0.23.7
+- Updated dependencies [[`cb7d5e2`](https://github.com/lingodotdev/lingo.dev/commit/cb7d5e213282c00af658159472183a763f84ca3d)]:
+  - lingo.dev@0.93.8
 
 ## 0.1.8
 
 ### Patch Changes
 
-- Updated dependencies [[`eee21e1`](https://github.com/replexica/replexica/commit/eee21e1913e86f18938f1d6fd0dffaf6c17fb33c)]:
-  - replexica@0.23.6
+- Updated dependencies [[`5d27455`](https://github.com/lingodotdev/lingo.dev/commit/5d2745545044cbaddb099f7920c96fe198879ba3)]:
+  - lingo.dev@0.93.7
 
 ## 0.1.7
 
 ### Patch Changes
 
-- Updated dependencies []:
-  - replexica@0.23.5
+- Updated dependencies [[`b67a331`](https://github.com/lingodotdev/lingo.dev/commit/b67a33141253fa755b5531e52cd690bf5824d4b6)]:
+  - lingo.dev@0.93.6
 
 ## 0.1.6
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - replexica@0.23.4
+  - lingo.dev@0.93.5
 
 ## 0.1.5
 
 ### Patch Changes
 
-- Updated dependencies []:
-  - replexica@0.23.3
-  - @replexica/react@0.2.3
+- Updated dependencies [[`f42cff8`](https://github.com/lingodotdev/lingo.dev/commit/f42cff8355b1ff7bba1445bd04d11ee4672903c2)]:
+  - lingo.dev@0.93.4
 
 ## 0.1.4
 
 ### Patch Changes
 
-- Updated dependencies []:
-  - replexica@0.23.2
+- Updated dependencies [[`920e3f5`](https://github.com/lingodotdev/lingo.dev/commit/920e3f5c3ca1fd51b0919db13a4787cfd616de54)]:
+  - lingo.dev@0.93.3
 
 ## 0.1.3
 
 ### Patch Changes
 
-- Updated dependencies [[`088de18`](https://github.com/replexica/replexica/commit/088de18a53f45fa8df5833fe81ed96a2ed231299)]:
-  - @replexica/react@0.2.2
-  - replexica@0.23.1
+- Updated dependencies [[`cdb59dd`](https://github.com/lingodotdev/lingo.dev/commit/cdb59dddcd14da1ba3181a33c4c119af877cb4f3)]:
+  - lingo.dev@0.93.2
 
 ## 0.1.2
 
 ### Patch Changes
 
-- Updated dependencies [[`4e94058`](https://github.com/replexica/replexica/commit/4e940582ea8ebe5a058b76fb33420729f7bfdcef)]:
-  - replexica@0.23.0
-  - @replexica/react@0.2.1
+- Updated dependencies [[`caef325`](https://github.com/lingodotdev/lingo.dev/commit/caef3253bc99fa7bf7a0b40e5604c3590dcb4958)]:
+  - lingo.dev@0.93.1
 
 ## 0.1.1
 
 ### Patch Changes
 
-- Updated dependencies [[`b11b48e`](https://github.com/replexica/replexica/commit/b11b48e7c3ab05dd8de0ddcfe5cb4589786abbf9)]:
-  - @replexica/react@0.2.0
+- Updated dependencies [[`e980e84`](https://github.com/lingodotdev/lingo.dev/commit/e980e84178439ad70417d38b425acf9148cfc4b6)]:
+  - lingo.dev@0.93.0

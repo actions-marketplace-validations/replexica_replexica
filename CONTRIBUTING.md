@@ -1,53 +1,77 @@
-# CONTRIBUTING.md
+# Contributing to Lingo.dev
 
-Thank you for contributing to Replexica! We're an exciting open source project and we'd love to have you contribute!
+Thank you for contributing! We maintain high standards for code quality and design.
 
-Here's some resources and guidance to help you get started:
+**IMPORTANT: Every requirement below is critical. If any requirement is not met, your issue or PR will be automatically rejected by the bots.**
 
-[1. Getting Started](#getting-started)
-[2. Issues](#issues)
-[3. Pull Requests](#pull-requests)
-[4. Release Process](#release-process)
+## Before You Start
 
-## Getting Started
+1. **Find or create an issue** - Search [existing issues](https://github.com/lingodotdev/lingo.dev/issues) first
+2. **Wait to be assigned** - Comment on the issue and wait for assignment before starting work. Assignment priority:
+   - First: Issue creator
+   - Second: First volunteer commenter
+   - **Submitting a PR without assignment will result in automatic rejection**
+3. **Discuss approach** - Align on implementation details before coding
 
-Here's how to get the project running locally:
+## Pull Request Requirements
+
+### Must Have
+
+- **Linked issue** - Reference the issue in your PR (e.g., "Closes #123")
+- **Valid title** - Use [Conventional Commits](https://www.conventionalcommits.org/): `feat:`, `fix:`, `chore:`, etc.
+- **Tests** - Unit tests for main code paths
+- **Changeset** - Run `pnpm new` from repo root
+- **Passing checks** - All CI checks must pass
+
+### Standards
+
+- **Surgical PRs** - One clear objective per PR
+- **Clean code** - Elegant, well-reasoned implementation
+- **Meaningful changes** - No low-effort, cosmetic, or trivial edits made only to gain contributions
+- **No duplicate work** - Check if someone else already opened a PR
+
+## Local Development
+
+### Prerequisites
+
+- Node.js 18+
+- pnpm (`npm install -g pnpm`)
+- AI API key (Groq, Google, or Mistral) - [setup guide](https://lingo.dev/en/cli/quick-start#step-2-authentication)
+
+### Setup
 
 ```bash
-git clone https://github.com/replexica/replexica
-cd replexica
-pnpm i
+git clone https://github.com/lingodotdev/lingo.dev
+cd lingo.dev
+pnpm install
 pnpm turbo build
+```
 
-# in terminal window 1 - watch for CLI code changes
+### Run Locally
+
+```bash
+# Terminal 1 - watch CLI changes
 cd packages/cli
 pnpm run dev
 
-# in terminal window 2 - test the CLI
-cd package
-pnpm replexica --help # this command will use the current cli code + demo config from ./package/i18n.json
+# Terminal 2 - test CLI
+cd packages/cli
+pnpm lingo.dev --help
 ```
 
-Feel free to ask questions on our [Discord server](https://replexica.com/go/discord)!
+### Run Checks
 
-## Issues
+```bash
+pnpm install --frozen-lockfile
+pnpm turbo build --force
+pnpm turbo test --force
+pnpm changeset status --since origin/main
+```
 
-If you find a bug, please create an Issue and we'll triage it.
+## Review Process
 
-- Please search [existing Issues](https://github.com/replexica/replexica/issues) before creating a new one
-- Please include a clear description of the problem along with steps to reproduce it. Exact steps with screenshots and urls really help here
-- Before starting work on an issue, please comment on it and wait for it to be assigned to you. This prevents multiple people from working on the same issue simultaneously
-- Let's discuss implementation details in the issue comments or Discord before starting work, to ensure alignment between contributors and the Replexica team
+- Automated code review by AI bots provides suggestions
+- Human reviewers make final decisions
+- **Address maintainer comments promptly** - PRs with unaddressed comments will be closed to keep the repo clean. Feel free to recreate once issues are resolved.
 
-## Pull Requests
-
-We actively welcome your Pull Requests! A couple of things to keep in mind before you submit:
-
-- If you're fixing an Issue, make sure someone else hasn't already created a PR fixing the same issue
-- Make sure to link your PR to the related Issue(s)
-- We will always try to accept the first viable PR that resolves the Issue
-- Please discuss implementation approach beforehand to avoid having PRs rejected
-
-## Release Process
-
-Be sure to run `pnpm new` after you're done with the changes. This will use `changesets` library to trigger a new version after the PR is merged to the main branch. Be sure to do that after requesting a review from the maintainers: the CI build will fail if you don't run `pnpm new`.
+Questions? Join our [Discord](https://lingo.dev/go/discord)!

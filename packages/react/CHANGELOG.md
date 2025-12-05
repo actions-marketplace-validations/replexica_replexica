@@ -1,182 +1,93 @@
-# @replexica/react
+# @lingo.dev/\_react
 
-## 0.3.13
+## 0.7.0
 
-### Patch Changes
+### Minor Changes
 
-- Updated dependencies [[`1556977`](https://github.com/replexica/replexica/commit/1556977332a6f949100283bfa8c9a9ff5e74b156)]:
-  - @replexica/spec@0.20.0
+- [#1634](https://github.com/lingodotdev/lingo.dev/pull/1634) [`48fab66`](https://github.com/lingodotdev/lingo.dev/commit/48fab66b6806455d9faa1dcb169d4c61194e2144) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - Pin all dependencies to exact versions to prevent supply chain attacks. Dependencies no longer use caret (^) or tilde (~) ranges, ensuring full control over version updates and requiring explicit review of all dependency changes.
 
-## 0.3.12
+## 0.6.0
 
-### Patch Changes
+### Minor Changes
 
-- Updated dependencies [[`5cb3c93`](https://github.com/replexica/replexica/commit/5cb3c930fff6e30cff5cc2266b794f75a0db646d)]:
-  - @replexica/spec@0.19.0
+- [#1534](https://github.com/lingodotdev/lingo.dev/pull/1534) [`4d2359a`](https://github.com/lingodotdev/lingo.dev/commit/4d2359a3d7164f825bf5ddf62b5d13a4690cb4a2) Thanks [@verma-divyanshu-git](https://github.com/verma-divyanshu-git)! - add Suspense fallback to LingoProviderWrapper
 
-## 0.3.11
+## 0.5.0
 
-### Patch Changes
+### Minor Changes
 
-- Updated dependencies [[`a6b22a3`](https://github.com/replexica/replexica/commit/a6b22a3237f574455d8119f914d82b0b247b4151)]:
-  - @replexica/spec@0.18.0
+- [#1134](https://github.com/lingodotdev/lingo.dev/pull/1134) [`3a642f3`](https://github.com/lingodotdev/lingo.dev/commit/3a642f33c04378706a8382aa0fde36e747fd6af5) Thanks [@mathio](https://github.com/mathio)! - useLingoLocale, setLingoLocale
 
-## 0.3.10
+## 0.4.3
 
 ### Patch Changes
 
-- Updated dependencies [[`091ee35`](https://github.com/replexica/replexica/commit/091ee353081795bf8f61c7d41483bc309c7b62ef)]:
-  - @replexica/spec@0.17.0
+- [#1119](https://github.com/lingodotdev/lingo.dev/pull/1119) [`e898c1e`](https://github.com/lingodotdev/lingo.dev/commit/e898c1eeb34e4dd3e74df26465802b520018acf9) Thanks [@mathio](https://github.com/mathio)! - compiler fallback to source locale
 
-## 0.3.9
-
-### Patch Changes
-
-- Updated dependencies [[`5e282d7`](https://github.com/replexica/replexica/commit/5e282d7ffa5ca9494aa7046a090bb7c327085a86)]:
-  - @replexica/spec@0.16.0
-
-## 0.3.8
+## 0.4.2
 
 ### Patch Changes
 
-- Updated dependencies [[`0071cd6`](https://github.com/replexica/replexica/commit/0071cd66b1c868ad3898fc368390a628c5a67767)]:
-  - @replexica/spec@0.15.0
+- [#1054](https://github.com/lingodotdev/lingo.dev/pull/1054) [`2d67369`](https://github.com/lingodotdev/lingo.dev/commit/2d673697b9cf4d91de2f48444581f8b3fd894cd6) Thanks [@davidturnbull](https://github.com/davidturnbull)! - Fix loadLocaleFromCookies to return default locale instead of null when no cookie is found
 
-## 0.3.7
-
-### Patch Changes
-
-- Updated dependencies [[`2859938`](https://github.com/replexica/replexica/commit/28599388a91bf80cea3813bb4b8999bb4df302c9)]:
-  - @replexica/spec@0.14.1
-
-## 0.3.6
+## 0.4.1
 
 ### Patch Changes
 
-- Updated dependencies [[`ca9e20e`](https://github.com/replexica/replexica/commit/ca9e20eef9047e20d39ccf9dff74d2f6069d4676), [`2aedf3b`](https://github.com/replexica/replexica/commit/2aedf3bec2d9dffc7b43fc10dea0cab5742d44af), [`626082a`](https://github.com/replexica/replexica/commit/626082a64b88fb3b589acd950afeafe417ce5ddc)]:
-  - @replexica/spec@0.14.0
+- [#1011](https://github.com/lingodotdev/lingo.dev/pull/1011) [`bfcb424`](https://github.com/lingodotdev/lingo.dev/commit/bfcb424eb4479d0d3b767e062d30f02c5bcaeb14) Thanks [@mathio](https://github.com/mathio)! - replace elements with dot in name
 
-## 0.3.5
+## 0.4.0
 
-### Patch Changes
+### Minor Changes
 
-- Updated dependencies [[`1601f70`](https://github.com/replexica/replexica/commit/1601f708bdf0ff1786d3bf9b19265ac5b567f740)]:
-  - @replexica/spec@0.13.0
-
-## 0.3.4
-
-### Patch Changes
-
-- Updated dependencies [[`bc5a28c`](https://github.com/replexica/replexica/commit/bc5a28c3c98b619872924b5f913229ac01387524)]:
-  - @replexica/spec@0.12.1
-
-## 0.3.3
-
-### Patch Changes
-
-- Updated dependencies [[`5c2ca37`](https://github.com/replexica/replexica/commit/5c2ca37114663eaeb529a027e33949ef3839549b)]:
-  - @replexica/spec@0.12.0
-
-## 0.3.2
-
-### Patch Changes
-
-- Updated dependencies [[`6870fc7`](https://github.com/replexica/replexica/commit/6870fc758dae9d1adb641576befbd8cda61cd5ea)]:
-  - @replexica/spec@0.11.0
-
-## 0.3.1
-
-### Patch Changes
-
-- Updated dependencies [[`d6e6d5c`](https://github.com/replexica/replexica/commit/d6e6d5c24b266de3769e95545f74632e7d75c697)]:
-  - @replexica/spec@0.10.0
+- [`95c23cc`](https://github.com/lingodotdev/lingo.dev/commit/95c23ccbafd335939832dbdd0f995ebcb23082fd) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - add className support to language switcher component
 
 ## 0.3.0
 
 ### Minor Changes
 
-- [#158](https://github.com/replexica/replexica/pull/158) [`73c9250`](https://github.com/replexica/replexica/commit/73c925084989ccea120cae1617ec87776c88e83e) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - Configuration spec v1.1: Improved bucket config structure, to support exclusion patterns
-
-### Patch Changes
-
-- Updated dependencies [[`73c9250`](https://github.com/replexica/replexica/commit/73c925084989ccea120cae1617ec87776c88e83e)]:
-  - @replexica/spec@0.9.0
-
-## 0.2.5
-
-### Patch Changes
-
-- Updated dependencies [[`8c8e7dd`](https://github.com/replexica/replexica/commit/8c8e7dd4d35669d484240d643427612ecdaf73eb)]:
-  - @replexica/spec@0.8.0
+- [#897](https://github.com/lingodotdev/lingo.dev/pull/897) [`a5da697`](https://github.com/lingodotdev/lingo.dev/commit/a5da697f7efd46de31d17b202d06eb5f655ed9b9) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - Add support for other providers in the compiler and implement Google AI as a provider.
 
 ## 0.2.4
 
 ### Patch Changes
 
-- Updated dependencies [[`c0be1a2`](https://github.com/replexica/replexica/commit/c0be1a29e3069ef2c8bdc4e4f52d2fb17abdb1f5)]:
-  - @replexica/spec@0.7.0
+- [#887](https://github.com/lingodotdev/lingo.dev/pull/887) [`511a2ec`](https://github.com/lingodotdev/lingo.dev/commit/511a2ecd68a9c5e2800035d5c6a6b5b31b2dc80f) Thanks [@mathio](https://github.com/mathio)! - handle when lingo dir is deleted
 
 ## 0.2.3
 
 ### Patch Changes
 
-- Updated dependencies [[`10252ce`](https://github.com/replexica/replexica/commit/10252ceaa2685cc23f4dbeb6ac985cc2148853e2)]:
-  - @replexica/spec@0.6.0
+- [#883](https://github.com/lingodotdev/lingo.dev/pull/883) [`7191444`](https://github.com/lingodotdev/lingo.dev/commit/7191444f67864ea5b5a91a9be759b2445bf186d3) Thanks [@mathio](https://github.com/mathio)! - client-side loading state
 
 ## 0.2.2
 
 ### Patch Changes
 
-- [`088de18`](https://github.com/replexica/replexica/commit/088de18a53f45fa8df5833fe81ed96a2ed231299) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - Fix @replexica/config reference
+- [#867](https://github.com/lingodotdev/lingo.dev/pull/867) [`a7bf553`](https://github.com/lingodotdev/lingo.dev/commit/a7bf5538b5b72e41f90371f6211378aac7d5f800) Thanks [@devin-ai-integration](https://github.com/apps/devin-ai-integration)! - Fix template substitution destructive shift() bug that caused rendering failures when translations have different element counts between locales
 
-- Updated dependencies [[`088de18`](https://github.com/replexica/replexica/commit/088de18a53f45fa8df5833fe81ed96a2ed231299)]:
-  - @replexica/spec@0.5.1
+- [#868](https://github.com/lingodotdev/lingo.dev/pull/868) [`562e667`](https://github.com/lingodotdev/lingo.dev/commit/562e667471abb51d7dd193217eefb8e8b3f8a686) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - show dictionary error
 
 ## 0.2.1
 
 ### Patch Changes
 
-- Updated dependencies [[`4e94058`](https://github.com/replexica/replexica/commit/4e940582ea8ebe5a058b76fb33420729f7bfdcef)]:
-  - @replexica/spec@0.5.0
+- [`1f9db11`](https://github.com/lingodotdev/lingo.dev/commit/1f9db11a53d8c75ce0e83517b73d43544d0f0fd2) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - add console log to lingoproviderwrapper
 
 ## 0.2.0
 
 ### Minor Changes
 
-- [#75](https://github.com/replexica/replexica/pull/75) [`b11b48e`](https://github.com/replexica/replexica/commit/b11b48e7c3ab05dd8de0ddcfe5cb4589786abbf9) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - framework-agnostic i18n support
-
-## 0.1.2
-
-### Patch Changes
-
-- [`4b2a9bf`](https://github.com/replexica/replexica/commit/4b2a9bf2dc20cd32c7975f3ae10bf85fdb17ec2c) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - fix client react components export
+- [#838](https://github.com/lingodotdev/lingo.dev/pull/838) [`e75e615`](https://github.com/lingodotdev/lingo.dev/commit/e75e615ab17e279deb5a505dbda682fdfc7ead62) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - switch from tsup to unbuild
 
 ## 0.1.1
 
 ### Patch Changes
 
-- [#19](https://github.com/replexica/replexica/pull/19) [`2667316`](https://github.com/replexica/replexica/commit/266731678ab9630f5d5afb29c2e80c44b2f5a5db) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - switch `@replexica/react` module resolution to commonjs
+- [`caef325`](https://github.com/lingodotdev/lingo.dev/commit/caef3253bc99fa7bf7a0b40e5604c3590dcb4958) Thanks [@mathio](https://github.com/mathio)! - release fix
 
 ## 0.1.0
 
 ### Minor Changes
 
-- [#13](https://github.com/replexica/replexica/pull/13) [`0c92f9d`](https://github.com/replexica/replexica/commit/0c92f9d3f63f0a6dd0254c90523958ada6348fb6) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - production-ready release of replexica CLI, compiler, and react runtime components
-
-## 0.0.3
-
-### Patch Changes
-
-- [`546a100`](https://github.com/replexica/replexica/commit/546a1008de29c233eecc7f23f57fbfd01457cc4c) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - test package auto release
-
-## 0.0.2
-
-### Patch Changes
-
-- [`7a20ee9`](https://github.com/replexica/replexica/commit/7a20ee9250e8ab0d565a1d56b6511e144f0a8806) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - add stub export
-
-## 0.0.1
-
-### Patch Changes
-
-- setup package publishing
+- [`e980e84`](https://github.com/lingodotdev/lingo.dev/commit/e980e84178439ad70417d38b425acf9148cfc4b6) Thanks [@maxprilutskiy](https://github.com/maxprilutskiy)! - added the compiler

@@ -1,0 +1,39 @@
+{
+  "name": "@replexica/integration-directus",
+  "version": "0.1.10",
+  "description": "Lingo.dev integration for Directus",
+  "private": false,
+  "sideEffects": false,
+  "directus:extension": {
+    "type": "operation",
+    "path": {
+      "app": "build/app.mjs",
+      "api": "build/api.mjs"
+    },
+    "source": {
+      "app": "src/app.ts",
+      "api": "src/api.ts"
+    },
+    "host": "^10.10.0"
+  },
+  "files": [
+    "build",
+    "readme.md",
+    "changelog.md"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsc --noEmit && tsup",
+    "test": "vitest run"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@replexica/sdk": "0.7.7"
+  },
+  "devDependencies": {
+    "@directus/extensions-sdk": "17.0.3",
+    "tsup": "8.5.1",
+    "typescript": "5.9.3",
+    "vitest": "4.0.13"
+  }
+}

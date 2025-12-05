@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -26,7 +27,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "node_modules/@replexica/.cache/*.json"
+    "../react-router-app/app/welcome/lingo-dot-dev.tsx"
   ],
   "exclude": ["node_modules"]
 }

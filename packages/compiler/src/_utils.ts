@@ -1,24 +1,22 @@
-import { I18nConfig } from "@replexica/spec";
-import { CompilerConfig, loadI18nConfig } from "./config";
+import path from "path";
 
-export type SubcompilerFactory<R> = {
-  (compilerConfig: CompilerConfig, i18nConfig: I18nConfig): R;
-}
+import { LCP_DICTIONARY_FILE_NAME } from "./_const";
 
-export type SubcompilerMap<T extends Record<string, SubcompilerFactory<any>>> = {
-  [name in keyof T]: (compilerConfig: CompilerConfig) => ReturnType<T[name]>;
+export type GetDictionaryPathParams = {
+  sourceRoot: string;
+  lingoDir: string;
+  relativeFilePath: string;
 };
-
-export function createCompiler<T extends Record<string, SubcompilerFactory<any>>>(subcompilers: T) {
-  const i18nConfig = loadI18nConfig();
-  const result: SubcompilerMap<T> = {} as any;
-
-  const subcompilerNames = Object.keys(subcompilers) as (keyof T)[];
-  for (const subcompilerName of subcompilerNames) {
-    const createSubcompiler = subcompilers[subcompilerName];
-    result[subcompilerName] = (compilerConfig: CompilerConfig) =>
-        createSubcompiler(compilerConfig, i18nConfig);
-  }
-
-  return result;
-}
+export const getDictionaryPath = (params: GetDictionaryPathParams) => {
+  const toFile = path.resolve(
+    params.sourceRoot,
+    params.lingoDir,
+    LCP_DICTIONARY_FILE_NAME,
+  );
+  const fromDir = path.dirname(
+    path.resolve(params.sourceRoot, params.relativeFilePath),
+  );
+  const relativePath = path.relative(fromDir, toFile);
+  const normalizedPath = relativePath.split(path.sep).join(path.posix.sep);
+  return `./${normalizedPath}`;
+};

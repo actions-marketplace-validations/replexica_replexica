@@ -1,33 +1,64 @@
-name: Replexica
+name: "Lingo.Dev AI Localization"
 description: Automated AI localization for dev teams.
-author: Replexica
+author: Lingo.dev
 
 branding:
-  icon: 'aperture'
-  color: 'black'
+  icon: "aperture"
+  color: "black"
 
 runs:
-  using: 'docker'
-  image: 'action/Dockerfile'
-  env:
-    REPLEXICA_API_KEY: ${{ inputs.api-key }}
-    REPLEXICA_PULL_REQUEST: ${{ inputs.pull-request }}
-    REPLEXICA_COMMIT_MESSAGE: ${{ inputs.commit-message }}
-    REPLEXICA_PULL_REQUEST_TITLE: ${{ inputs.pull-request-title }}
-
+  using: "composite"
+  steps:
+    - name: Run
+      run: |
+        npx lingo.dev@${{ inputs.version }} ci \
+          --api-key "${{ inputs.api-key }}" \
+          --pull-request "${{ inputs.pull-request }}" \
+          --commit-message "${{ inputs.commit-message }}" \
+          --pull-request-title "${{ inputs.pull-request-title }}" \
+          --commit-author-name "${{ inputs.commit-author-name }}" \
+          --commit-author-email "${{ inputs.commit-author-email }}" \
+          --working-directory "${{ inputs.working-directory }}" \
+          --process-own-commits "${{ inputs.process-own-commits }}" \
+          --parallel ${{ inputs.parallel }}
+      shell: bash
 inputs:
+  version:
+    description: "Lingo.dev CLI version"
+    default: "latest"
+    required: false
   api-key:
-    description: 'Replexica Platform API Key'
+    description: "Lingo.dev Platform API Key"
     required: true
   pull-request:
-    description: 'Create a pull request with the changes'
+    description: "Create a pull request with the changes"
     default: false
     required: false
   commit-message:
-    description: 'Commit message'
-    default: 'feat: update translations via @replexica'
+    description: "Commit message"
+    default: "feat: update translations via @LingoDotDev"
     required: false
   pull-request-title:
-    description: 'Pull request title'
-    default: 'feat: update translations via @replexica'
+    description: "Pull request title"
+    default: "feat: update translations via @LingoDotDev"
+    required: false
+  commit-author-name:
+    description: "Git commit author name"
+    default: "Lingo.dev"
+    required: false
+  commit-author-email:
+    description: "Git commit author email"
+    default: "support@lingo.dev"
+    required: false
+  working-directory:
+    description: "Working directory"
+    default: "."
+    required: false
+  process-own-commits:
+    description: "Process commits made by this action"
+    default: false
+    required: false
+  parallel:
+    description: "Run in parallel mode"
+    default: false
     required: false

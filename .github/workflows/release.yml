@@ -2,6 +2,11 @@ name: Release
 
 on:
   workflow_dispatch:
+    inputs:
+      skip_lingo:
+        description: "Skip Lingo.dev step"
+        type: "boolean"
+        default: false
   push:
     branches:
       - main
@@ -16,6 +21,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Debug Permissions
+        run: |
+          ls -la
+          ls -la integrations/
+          ls -la integrations/directus/
+
       - name: Check for [skip i18n]
         run: |
           COMMIT_MESSAGE=$(git log -1 --pretty=%B)
@@ -25,9 +36,9 @@ jobs:
           fi
 
       - name: Use Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.20.4
+          node-version: "20.19"
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
@@ -49,11 +60,13 @@ jobs:
       - name: Install deps
         run: pnpm install
 
-      - name: Replexica
+      - name: Lingo.dev
+        if: ${{ !inputs.skip_lingo }}
         uses: ./
         with:
-          api-key: ${{ secrets.REPLEXICA_API_KEY }}
+          api-key: ${{ secrets.LINGODOTDEV_API_KEY }}
           pull-request: true
+          parallel: true
         env:
           GH_TOKEN: ${{ github.token }}
 
@@ -66,7 +79,7 @@ jobs:
 
       - name: Build
         run: pnpm turbo build --force
-        
+
       - name: Test
         run: pnpm turbo test --force
 

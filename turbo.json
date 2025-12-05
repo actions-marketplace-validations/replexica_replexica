@@ -3,6 +3,12 @@
   "tasks": {
     "build": {
       "dependsOn": [
+        "typecheck",
+        "^build"
+      ]
+    },
+    "typecheck": {
+      "dependsOn": [
         "^build"
       ]
     },
