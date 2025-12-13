@@ -225,7 +225,7 @@
     "xliff": "6.2.2",
     "xml2js": "0.6.2",
     "xpath": "0.0.34",
-    "yaml": "2.8.1",
+    "yaml": "2.8.2",
     "zod": "3.25.76"
   },
   "devDependencies": {
